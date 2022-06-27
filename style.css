@@ -1,7 +1,7 @@
 html {
     height: 100%;
     overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    background: radial-gradient( #003973, #E5E5BE);
 }
  
 #title{
@@ -395,7 +395,7 @@ html {
     696px 1654px #fff, 1144px 60px #fff;
 }
 
-#stars{
+#stars2{
     width: 2px;
     height: 2px;
     background: transparent;
@@ -580,4 +580,13 @@ html {
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
 
+}
+
+@keyframes animStar {
+    from {
+        transform: translateY(0px)
+    }
+    to {
+        transform: translateY(-2000px)
+    }
 }
