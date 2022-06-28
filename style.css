@@ -1,29 +1,35 @@
 html {
     height: 100%;
     overflow: hidden;
-    background: radial-gradient( #003973, #E5E5BE);
+    background: linear-gradient( #003973, #E5E5BE);
 }
  
 #title{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 0%;
     right: 0%;
-    color: white;
+    color: #E5E5BE;
     text-align: center;
     font-family: lato;
     font-weight: 300;
     font-size: 50px;
-    letter-spacing: 10px;
     margin-top: -60px;
     padding-left: 10px;
 }
 
 #title span{
-    background: -webkit-linear-gradient(white, #38495a);
+    background: -webkit-linear-gradient(#E5E5BE, #BEE5D2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#border {
+    border: 2px solid red;
+    border-radius: 10px;
+    
+}
+
 
 #stars {
     width: 1px;
