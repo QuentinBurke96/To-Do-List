@@ -25,13 +25,16 @@ html {
 }
 
 #border {
-    border: 2px solid red;
+    border: 2px solid blue ;
+    border-width: 10px;
     border-radius: 10px;
-    padding: 25px;
-    width: 500px; height: 500px;
-    box-sizing: border-box;
-    
-    
+    padding-bottom: 500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-style: inset;
+    background-color: #003973;
+
+
 }
 
 
