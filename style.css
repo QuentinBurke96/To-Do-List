@@ -2,6 +2,7 @@ html {
     height: 100%;
     overflow: hidden;
     background: linear-gradient( #003973, #E5E5BE);
+
 }
  
 #title{
@@ -33,6 +34,7 @@ html {
     padding-right: 100px;
     border-style: inset;
     background-color: #003973;
+    
 
 
 }
